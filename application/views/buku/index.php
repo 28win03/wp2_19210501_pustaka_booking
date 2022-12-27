@@ -89,10 +89,12 @@
                         <input type="text" class="form-control form-control-user" id="pengarang" name="pengarang" placeholder="Masukkan nama pengarang">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="penerbit" name="penerbit" placeholder="Masukkan nama penerbit">
+                        <input type="text" class="form-control form-control-user" id="penerbit" name="penerbit" placeholder="Masukkan 
+nama penerbit">
                     </div>
                     <div class="form-group">
-                        <select name="tahun" class="form-control form-control-user">
+                        <select name="tahun" class="form-control 
+form-control-user">
                             <option value="">Pilih Tahun</option>
                             <?php
                             for ($i = date('Y'); $i > 1000; $i--) {
